@@ -35,3 +35,26 @@ Three distinct regimes emerged: The 2016-2017 gaming and early AI boom, the 2018
 The recent decline towards zero alpha suggests Nvidia's extraordinary returns are increasingly being priced into broader market and sector movements.
 This is a classical example of alpha decay.
 
+## Limitations
+
+**Descriptive not causal**
+The model identifies alpha but cannot explain what caused it.
+
+**Only three factors**
+The model only takes three factors into consideration. That is why the Fama-French 5-factor model adds profitability and investment.
+
+**Broader market benchmark**
+The model compares Nvidia to the broader market. A technology sector benchmark would be more appropriate since Nvidia's returns are partly driven by sector-wide movements rather than company-specific factors alone.
+
+**Survivorship bias**
+The entire analysis is built around one stock. Nvidia was chosen because it performed spectacularly. If I had picked a random stock, the results may have looked completely different. So here I choose a winner after already knowing it won. 
+
+## How to Run
+1. Clone or download this repository
+2. Open Rstudio and navigate to the project folder
+3. Run 'requirements.R' once to install all required packages
+4. Open and run 'single_stock_analysis.R'
+
+
+
+
